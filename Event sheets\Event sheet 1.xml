@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="264508323323852">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="350929829274308" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="9" name="Set vector Y" sid="152285817903961" type="FlyingGameCharacterremovebgpreview">
+                    <param id="0" name="Vector Y">FlyingGameCharacterremovebgpreview.Y-700</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="507797208925258">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="301318858095883" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="608516121339043" type="tiangremovebgpreview">
+                    <param id="0" name="X">tiangremovebgpreview.X-5</param>
+                </action>
+                <action id="-1" name="Set X" sid="437830512450585" type="tiangremovebgpreview2">
+                    <param id="0" name="X">tiangremovebgpreview.X-5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="587117272448747">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="583094998836432" type="FlyingGameCharacterremovebgpreview">
+                    <param id="0" name="Object">tiangremovebgpreview2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="826923750370375" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="454358967303434">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="306271256918139" type="FlyingGameCharacterremovebgpreview">
+                    <param id="0" name="Object">tiangremovebgpreview</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="117117036055114" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="236925079783498">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="377275415510834" type="System">
+                    <param id="0" name="Interval (seconds)">1.5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="795042405133848" type="System">
+                    <param id="0" name="Object to create">tiangremovebgpreview2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">600</param>
+                    <param id="3" name="Y">random(-10,100)</param>
+                </action>
+                <action id="-3" name="Create object" sid="308004464558280" type="System">
+                    <param id="0" name="Object to create">tiangremovebgpreview</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">600</param>
+                    <param id="3" name="Y">tiangremovebgpreview2.Y+700</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="954023887894995">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="145273921449182" type="FlyingGameCharacterremovebgpreview" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="950007596204594" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

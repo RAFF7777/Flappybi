@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>480</width>
+        <height>854</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="backroundFlappyBird" sid="544587987133417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="419827073512126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\xampp1\htdocs\backround flappy bird.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="2393204_segathi_flappybirdnightbackground" sid="391886239895248">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="861320922706148" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\xampp1\htdocs\2393204_segathi_flappy-bird-night-background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backroundFlappyBird2" sid="477487771128012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="217858333672045" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\xampp1\htdocs\backround flappy bird.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FlyingGameCharacterremovebgpreview" sid="689840592535071">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="487687639028197">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="8" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="874625997642320" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505618" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (1).png">
+                        <collision-poly>
+                            <point x="0.169355" y="0.235955" />
+                            <point x="0.5" y="0.146067" />
+                            <point x="0.75" y="0.348315" />
+                            <point x="0.951613" y="0.494382" />
+                            <point x="0.774194" y="0.685393" />
+                            <point x="0.5" y="0.820225" />
+                            <point x="0.185484" y="0.741573" />
+                            <point x="0.0241935" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (3).png" />
+                    <frame duration="1" hotspotX="0.504" hotspotY="0.50505" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (4).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505495" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (5).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506024" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (6).png" />
+                    <frame duration="1" hotspotX="0.504" hotspotY="0.5" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (7).png" />
+                    <frame duration="1" hotspotX="0.503937" hotspotY="0.505618" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (8).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505882" original-source="C:\game restu\FlyingGameCharacter-removebg-preview (9).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tiangremovebgpreview" sid="397865947786627">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141603309868542" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500967" original-source="C:\Users\PSPT-01\Downloads\tiang-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.165854" y="0.131528" />
+                            <point x="0.5" y="0.00773694" />
+                            <point x="0.821951" y="0.141199" />
+                            <point x="0.795122" y="0.499033" />
+                            <point x="0.795122" y="0.837524" />
+                            <point x="0.5" y="0.988395" />
+                            <point x="0.192683" y="0.847195" />
+                            <point x="0.192683" y="0.499033" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tiangremovebgpreview2" sid="600189840124908">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284447399683003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.499033" original-source="C:\Users\PSPT-01\Downloads\tiang-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.834146" y="0.868472" />
+                            <point x="0.5" y="0.992263" />
+                            <point x="0.178049" y="0.858801" />
+                            <point x="0.204878" y="0.500967" />
+                            <point x="0.204878" y="0.162476" />
+                            <point x="0.5" y="0.011605" />
+                            <point x="0.807317" y="0.152805" />
+                            <point x="0.807317" y="0.500967" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="661319280220932">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite" sid="839989859528413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="688416022476008" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="1387409NightCityAbstractMinimalistMinimalismDigital" sid="475090912984769">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167342447519391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500938" original-source="C:\Users\User\Downloads\1387409-Night-City-Abstract-Minimalist-Minimalism-Digital.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="276188227378009">
+            <plugin id="Keyboard" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Keyboard" uid="0" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
